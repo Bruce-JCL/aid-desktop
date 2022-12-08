@@ -8,7 +8,7 @@ INTERMEDIATES=starter/build/intermediates
 DATA_DIR=$INTERMEDIATES/data
 CONTROL_DIR=$INTERMEDIATES/control
 PACKAGE_DIR=$INTERMEDIATES/package
-PREFIX=$DATA_DIR/data/data/com.termux/files/usr
+PREFIX=$DATA_DIR/data/data/com.aidlux/files/usr
 
 rm -rf $PACKAGE_PATH $DATA_DIR $CONTROL_DIR $PACKAGE_DIR
 

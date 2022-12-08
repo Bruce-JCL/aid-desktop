@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.aidlux/files/usr/bin/bash
 DISPLAYNO=0
 
 socket_is_open() {
@@ -8,7 +8,7 @@ socket_is_open() {
 	return $?
 }
 
-/data/data/com.termux/files/usr/bin/termux-x11 :$DISPLAYNO &
+/data/data/com.aidlux/files/usr/bin/termux-x11 :$DISPLAYNO &
 
 {
 	#kill this script if termux-x11 is not up after 10 seconds

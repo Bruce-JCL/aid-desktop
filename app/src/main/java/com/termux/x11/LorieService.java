@@ -229,7 +229,7 @@ public class LorieService extends Service {
         intent.setClassName("com.termux", "com.termux.app.RunCommandService");
         intent.setAction("com.termux.RUN_COMMAND");
         intent.putExtra("com.termux.RUN_COMMAND_PATH",
-                "/data/data/com.termux/files/usr/libexec/termux-x11/termux-startx11");
+                "/data/data/com.aidlux/files/usr/libexec/termux-x11/termux-startx11");
         intent.putExtra("com.termux.RUN_COMMAND_BACKGROUND", true);
         Log.d("LorieService", "sendRunCommand: " + intent);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {

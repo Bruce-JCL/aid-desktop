@@ -23,7 +23,7 @@ import com.termux.x11.common.ITermuxX11Internal;
 @SuppressWarnings({"unused", "RedundantThrows", "SameParameterValue", "FieldCanBeLocal"})
 public class Starter {
     @SuppressLint("SdCardPath")
-    private final String XwaylandPath = "/data/data/com.termux/files/usr/bin/Xwayland";
+    private final String XwaylandPath = "/data/data/com.aidlux/files/usr/bin/Xwayland";
     private final ComponentName TermuxX11Component =
             ComponentName.unflattenFromString("com.termux.x11/.TermuxX11StarterReceiver");
     private String[] args;

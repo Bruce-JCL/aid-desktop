@@ -16,7 +16,7 @@
 
 #define unused __attribute__((__unused__))
 
-#define DEFAULT_PREFIX "/data/data/com.termux/files/usr"
+#define DEFAULT_PREFIX "/data/data/com.aidlux/files/usr"
 #define DEFAULT_XDG_RUNTIME_DIR DEFAULT_PREFIX "/tmp"
 #define DEFAULT_SOCKET_NAME "wayland-0"
 
@@ -143,7 +143,7 @@ Java_com_termux_x11_starter_Starter_openLogFD(unused JNIEnv *env, unused jobject
 
                 poll(&pfd, 1, 10000);
 
-                execl("/data/data/com.termux/files/usr/bin/cat", "cat", NULL);
+                execl("/data/data/com.aidlux/files/usr/bin/cat", "cat", NULL);
                 dprintf(new_stderr, "execl cat: %s\n", strerror(errno));
                 return -1;
             }
