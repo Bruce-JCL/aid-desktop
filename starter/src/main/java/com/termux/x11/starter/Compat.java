@@ -19,7 +19,7 @@ import com.android.internal.app.IAppOpsService;
 import java.lang.reflect.InvocationTargetException;
 
 public class Compat {
-    static final String callingPackage = "com.termux";
+    static final String callingPackage = "com.aidlux";
     static int startActivity(Intent i) {
         try {
             if (Build.VERSION.SDK_INT >= 30) {

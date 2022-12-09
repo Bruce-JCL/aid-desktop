@@ -63,13 +63,13 @@ public class Starter {
         Starter.this.args = args;
         checkXdgRuntimeDir();
         prepareLogFD();
-        if (!Compat.havePermission(AppOpsManager.OPSTR_SYSTEM_ALERT_WINDOW)) {
-            System.err.println("Looks like " + Compat.callingPackage +
-                        " lacks \"Draw Over Apps\" permission.");
-            System.err.println("You can grant " + Compat.callingPackage +
-                        " the \"Draw Over Apps\" permission from its App Info activity:");
-            System.err.println("\tAndroid Settings -> Apps -> Termux -> Advanced -> Draw over other apps.");
-        }
+//        if (!Compat.havePermission(AppOpsManager.OPSTR_SYSTEM_ALERT_WINDOW)) {
+//            System.err.println("Looks like " + Compat.callingPackage +
+//                        " lacks \"Draw Over Apps\" permission.");
+//            System.err.println("You can grant " + Compat.callingPackage +
+//                        " the \"Draw Over Apps\" permission from its App Info activity:");
+//            System.err.println("\tAndroid Settings -> Apps -> Termux -> Advanced -> Draw over other apps.");
+//        }
 
         if (checkWaylandSocket()) {
           System.err.println("termux-x11 is already running");
