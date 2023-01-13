@@ -40,3 +40,6 @@ ar -rsc $PACKAGE_PATH \
 	$PACKAGE_DIR/debian-binary \
 	$PACKAGE_DIR/control.tar.gz \
 	$PACKAGE_DIR/data.tar.xz
+cd  ~/StudioProjects/aid-desktop/starter/build/intermediates/data/data/data/com.aidlux/files
+zip -ry aid-desk.zip usr/
+cp aid-desk.zip /mnt/c/Users/jiang/Desktop/
